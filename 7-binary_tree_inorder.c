@@ -4,10 +4,10 @@
  * @tree: root node
  * @func: pointer to a function to call each node
  * Return: Nothing
- * */
-void binary_tree_inorder(const binarty *tree, (*func)(int))
+ */
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
-	if(!(tree || func))
+	if (!tree || !func)
 	{
 		return;
 	}
