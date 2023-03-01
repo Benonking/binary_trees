@@ -4,7 +4,7 @@
  * @node: pointer to node
  * Return: 1 if yes or 0 is no if node doent exist return 0
  */
-int binary_tree_is_root(binary_tree_t *node)
+int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (!node)
 	{
